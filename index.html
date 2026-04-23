@@ -111,6 +111,14 @@
         to average CPM &gt; 10 and restricted to protein-coding isoforms from protein-coding genes to
         identify rhythmic transcripts with ECHO.
       </p>
+
+      <h4 style="margin-top:20px;">Methods Overview</h4>
+      <p>
+        RNA-seq reads were processed with SortMeRNA, aligned to the mouse genome with STAR,
+        and quantified at the transcript level using RSEM with reverse-stranded settings.
+        TPM values were batch-corrected with LIMBR, filtered to protein-coding transcripts
+        with average CPM &gt; 10, and analyzed with ECHO to identify rhythmic transcripts.
+      </p>
     </div>
 
     <div class="project">
@@ -139,6 +147,7 @@
       <li>Motif enrichment analysis of circadian transcription factors in rhythmic ATAC-seq peaks</li>
       <li>Extension to rhythmic splicing and RNA-binding protein regulation</li>
     </ul>
+
   </div>
 
 </body>
